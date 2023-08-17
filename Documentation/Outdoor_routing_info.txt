@@ -4,18 +4,60 @@ includes elevation,
 Can choose to not use stairs
 Flexible routing destinations (doesn’t have to be a building)
 No-go zones
-Platforms: Android, Web
+Platforms:
+Android
+Web
 
 Profile section:
 Delete mentions of tertiary on line 142
 Delete mentions of road on line 141
 Change true on line 45 to false: 
 assign   allow_steps              false   # %allow_steps% | Set to false to disallow steps | boolean
-
-______________________________________________
+_
 Open Source Routing Machine(C++):
 Can choose not to use stairs
 Includes list of directions to do to get to destination
-Platforms:Linux,FreeBSD, Windows, Mac OS X
-
-
+Platforms:
+Linux, 
+FreeBSD, 
+Windows 
+Mac OS X
+_
+Valhalla(C++):
+Difficult to use
+Cannot use paths in campus unless you choose walking option
+No option to navigate through campus and without stairs
+Less efficient than previous routing software
+_
+Open Route Service(java):
+A bit tricky to use
+Takes into account:
+Type of surface on road(concrete, paved stones)
+Type of way, ie footway
+Steepness
+Has alternative routes
+Efficient
+Altitude
+Pick any location wanted
+No detour options
+Platforms:
+API 
+Web
+Linux
+macOS
+Windows
+Wheelchair routing supported in Europe
+Languages supported:
+German
+English(includes variants)
+Greek
+Spanish
+French
+Hungarian
+Italian
+Dutch
+Polish
+Portuguese
+Russian
+Chinese
+_
